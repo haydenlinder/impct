@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/haydenlinder/impct/static/css/main.e5245edd.chunk.css",
+    "main.js": "/haydenlinder/impct/static/js/main.e3cf75b1.chunk.js",
+    "main.js.map": "/haydenlinder/impct/static/js/main.e3cf75b1.chunk.js.map",
+    "runtime-main.js": "/haydenlinder/impct/static/js/runtime-main.88a71ce8.js",
+    "runtime-main.js.map": "/haydenlinder/impct/static/js/runtime-main.88a71ce8.js.map",
+    "static/js/2.ef27aa59.chunk.js": "/haydenlinder/impct/static/js/2.ef27aa59.chunk.js",
+    "static/js/2.ef27aa59.chunk.js.map": "/haydenlinder/impct/static/js/2.ef27aa59.chunk.js.map",
+    "index.html": "/haydenlinder/impct/index.html",
+    "precache-manifest.d30cdcec548419e5cb052575c03e0c32.js": "/haydenlinder/impct/precache-manifest.d30cdcec548419e5cb052575c03e0c32.js",
+    "service-worker.js": "/haydenlinder/impct/service-worker.js",
+    "static/css/main.e5245edd.chunk.css.map": "/haydenlinder/impct/static/css/main.e5245edd.chunk.css.map",
+    "static/js/2.ef27aa59.chunk.js.LICENSE.txt": "/haydenlinder/impct/static/js/2.ef27aa59.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88a71ce8.js",
+    "static/js/2.ef27aa59.chunk.js",
+    "static/css/main.e5245edd.chunk.css",
+    "static/js/main.e3cf75b1.chunk.js"
+  ]
+}
