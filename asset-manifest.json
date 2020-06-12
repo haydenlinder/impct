@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/impct/static/css/main.72c7c085.chunk.css",
+    "main.css": "/impct/static/css/main.1d410eff.chunk.css",
     "main.js": "/impct/static/js/main.d3e87906.chunk.js",
     "main.js.map": "/impct/static/js/main.d3e87906.chunk.js.map",
     "runtime-main.js": "/impct/static/js/runtime-main.7a3889b0.js",
@@ -8,15 +8,15 @@
     "static/js/2.3435d8b1.chunk.js": "/impct/static/js/2.3435d8b1.chunk.js",
     "static/js/2.3435d8b1.chunk.js.map": "/impct/static/js/2.3435d8b1.chunk.js.map",
     "index.html": "/impct/index.html",
-    "precache-manifest.c6dd711bc09f0dc5d0fc0a2bc0682620.js": "/impct/precache-manifest.c6dd711bc09f0dc5d0fc0a2bc0682620.js",
+    "precache-manifest.223a27a5f1711fc81c91765766a7d7d6.js": "/impct/precache-manifest.223a27a5f1711fc81c91765766a7d7d6.js",
     "service-worker.js": "/impct/service-worker.js",
-    "static/css/main.72c7c085.chunk.css.map": "/impct/static/css/main.72c7c085.chunk.css.map",
+    "static/css/main.1d410eff.chunk.css.map": "/impct/static/css/main.1d410eff.chunk.css.map",
     "static/js/2.3435d8b1.chunk.js.LICENSE.txt": "/impct/static/js/2.3435d8b1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7a3889b0.js",
     "static/js/2.3435d8b1.chunk.js",
-    "static/css/main.72c7c085.chunk.css",
+    "static/css/main.1d410eff.chunk.css",
     "static/js/main.d3e87906.chunk.js"
   ]
 }
