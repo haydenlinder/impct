@@ -1,9 +1,11 @@
 import React from 'react';
 import Profile from './profile';
+import Menu from './menu';
 
-const Page = () => (
+const Page = ({ panel }) => (
     <div id="page" className="page">
-        <Profile />
+        {panel === "Page" ? <Profile /> : null}
+        {panel === "Menu" ? <Menu /> : null}
     </div>
 );
 

@@ -21,8 +21,7 @@ class App extends React.Component {
     return (
       <div className="body">
         <Header setPanel={this.setPanel} panel={panel} />
-        {panel === "Page" ? <Page /> : null}
-
+        <Page panel={panel}/>
       </div>
     );
   }
