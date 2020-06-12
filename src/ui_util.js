@@ -4,7 +4,6 @@ export const formatPage = () => {
     if (header && page) {
         const width = header.offsetWidth;
         page.style['width'] = `${width}px`;
-        console.log('resize');
     }
 };
 

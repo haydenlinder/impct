@@ -3,7 +3,7 @@
 import React from 'react';
 export const cart =
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-	 viewBox="0 0 450.391 450.391" style={{[`enable-background`]: `new 0 0 450.391 450.391;`}}>
+	 viewBox="0 0 450.391 450.391">
 <g>
 	<g>
 		<g>
