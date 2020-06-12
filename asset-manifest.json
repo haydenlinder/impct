@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/impct/static/css/main.1db9816f.chunk.css",
-    "main.js": "/impct/static/js/main.d07088fe.chunk.js",
-    "main.js.map": "/impct/static/js/main.d07088fe.chunk.js.map",
+    "main.css": "/impct/static/css/main.3bede28a.chunk.css",
+    "main.js": "/impct/static/js/main.e5bb86b7.chunk.js",
+    "main.js.map": "/impct/static/js/main.e5bb86b7.chunk.js.map",
     "runtime-main.js": "/impct/static/js/runtime-main.7a3889b0.js",
     "runtime-main.js.map": "/impct/static/js/runtime-main.7a3889b0.js.map",
     "static/js/2.091f6286.chunk.js": "/impct/static/js/2.091f6286.chunk.js",
     "static/js/2.091f6286.chunk.js.map": "/impct/static/js/2.091f6286.chunk.js.map",
     "index.html": "/impct/index.html",
-    "precache-manifest.1698a18d0a376653239b2fe2f625d785.js": "/impct/precache-manifest.1698a18d0a376653239b2fe2f625d785.js",
+    "precache-manifest.12ab69fa562d972f157f2df84b6121ba.js": "/impct/precache-manifest.12ab69fa562d972f157f2df84b6121ba.js",
     "service-worker.js": "/impct/service-worker.js",
-    "static/css/main.1db9816f.chunk.css.map": "/impct/static/css/main.1db9816f.chunk.css.map",
+    "static/css/main.3bede28a.chunk.css.map": "/impct/static/css/main.3bede28a.chunk.css.map",
     "static/js/2.091f6286.chunk.js.LICENSE.txt": "/impct/static/js/2.091f6286.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7a3889b0.js",
     "static/js/2.091f6286.chunk.js",
-    "static/css/main.1db9816f.chunk.css",
-    "static/js/main.d07088fe.chunk.js"
+    "static/css/main.3bede28a.chunk.css",
+    "static/js/main.e5bb86b7.chunk.js"
   ]
 }
