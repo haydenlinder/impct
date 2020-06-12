@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* wireframe */
+/* * {
+    border: 1px solid red !important;
+} */
+
+/* styles */
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+.body {
+    width: 100vw;
+    min-width: fit-content;
+    height: 100vh;
+    overflow: scroll;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    height: 70px;
+    width: 100vw;
+    min-width: fit-content;
+    background-color: blue;
+    position: absolute;
+    color: white;
+    z-index: 1;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+    width: 95%;
+    min-width: fit-content;
+    min-height: fit-content;
+}
+
+.menu-line {
+    width: 20px;
+    border-bottom: 2px solid white;
+    margin: 5px;
+}
+
+.navlink.menu { 
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navlink.cart {
+    padding: 7px;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    font-weight: 900;
+    fill: white;
+}
+
+.navlink.menu:hover, .navlink.cart:hover {
+    background-color: rgb(0, 119, 255);
+}
+
+.navlink.home {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+
+
+.navlink:hover {
+    cursor: pointer;
+}
+
+.page {
+    height: 100vh;
+    padding-top: 70px;
+    overflow: scroll;
+}
+
+.page::-webkit-scrollbar {
+    display: none;
+}
+
+.profile-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-photo.photo-container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 10px;
+}
+
+.photo-container {
+    border: 1px solid white;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo-file-input {
+    display: none;
+}
+
+.profile-photo.photo-container:hover .change-photo {
+    display: block;
+}
+
+.change-photo {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.change-photo:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.profile-tabs {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.profile-tab {
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    border-bottom: 5px solid white;
+}
+
+.profile-tab:hover {
+    cursor: pointer;
+    border-bottom: 5px solid grey;
+    padding-top: -5px;
+}
+
+.profile-tab.selected {
+    border-bottom: 5px solid blue;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    overflow: scroll;
+}
+
+.user-info-message {
+    color: grey;
+}
+
+.user-info-item {
+    color: blue;
+}
+
+.user-info-item.name {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.user-info * {
+    margin: 5px;
+}
+
+.edit-user-info {
+    font-size: 27px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.edit-user-info:hover {
+    cursor: pointer;
+}
+
+.edit-user-info:hover{
+    background-color: white;
+    color: blue;
+    border-color: blue;
+}
+
+
+.user-info-input {
+    width: 100%;
+}
+
+.save-user-info {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.save-user-info:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
