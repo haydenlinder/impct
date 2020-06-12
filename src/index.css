@@ -111,7 +111,7 @@ html {
     background-color: blue;
     position: absolute;
     color: white;
-    z-index: 1;
+    z-index: 2;
 }
 
 .nav {
@@ -167,6 +167,7 @@ html {
 .page {
     height: 100vh;
     padding-top: 70px;
+    padding-bottom: 20px;
     overflow: scroll;
 }
 
@@ -353,8 +354,9 @@ html {
 
 .cart-items {
     height: 100vh;
-    padding-top: 210px;
-    margin-top: -210px;
+    padding-top: 255px;
+    margin-top: -250px;
+    padding-bottom: 100px;
     border-bottom: 1px solid grey;
     overflow-y: scroll;
 }
@@ -374,6 +376,21 @@ html {
     color: blue;
 }
 
+.cart-counter {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    opacity: 0.5;
+    color: white;
+}
+
 .remove-cart-item:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -385,7 +402,7 @@ html {
     border-radius: 3px;
     box-shadow: 0px 0px 10px 0px black;
     padding: 5px;
-    margin-top: 12px;
+    margin-top: 10px;
 }
 
 .cart-item .photo-container {
@@ -394,3 +411,32 @@ html {
     height: 60px;
 }
 
+.qty {
+    display: flex;
+    align-items: center;
+}
+
+.qty-up {
+    margin-bottom: -5px;
+    transform: rotate(180deg);
+    font-size: 20px;
+    width: 15px;
+    text-align: center;
+}
+
+.qty-down {
+    font-size: 20px;
+    width: 15px;
+    text-align: center;
+}
+
+.qty-up:hover, .qty-down:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+
+
+.qty input {
+    width: 50px;
+}
