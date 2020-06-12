@@ -19,7 +19,7 @@ class CartItem extends React.Component {
                 </div>
                 <div className="cart-item-details">
                     <div>{desc}</div>
-                    <div>${price}</div>
+                    <div>${price.toFixed(2)}</div>
                     <div>Qty: {qty}</div>
                 </div>
             </div>

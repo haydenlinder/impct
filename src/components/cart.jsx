@@ -17,12 +17,37 @@ class Cart extends React.Component {
                 price: 13.5,
                 qty: 1
             },
+            item3: {
+                desc: 'Colombia Medellin Smallholder - Swiss Water Process Decaf - Medium',
+                photoURL: 'coffee3.png',
+                price: 12,
+                qty: 1
+            },
+            item4: {
+                desc: 'impctcoffee mug - drink coffee, change the world',
+                photoURL: 'coffee4.jpg',
+                price: 6,
+                qty: 1
+            },
+            item5: {
+                desc: 'Guatemala Asociación Barillense Organic - Medium - Sweet',
+                photoURL: 'coffee2.png',
+                price: 13.5,
+                qty: 1
+            },
         };
     }
 
     remove(item) {
         delete this.state[item];
         this.setState(this.state);
+    }
+
+    subTotal() {
+        let result = 0;
+        const items = Object.values(this.state);
+        items.forEach(item => result += item.price * item.qty);
+        return result.toFixed(2);
     }
 
     render() { 
@@ -38,6 +63,8 @@ class Cart extends React.Component {
                         </div> 
                     )}
                 </div>
+                <div>{keys.length} items</div>
+                <div>Subtotal: ${this.subTotal()}</div>
             </div>
         );
     }
