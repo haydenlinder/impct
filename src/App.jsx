@@ -20,8 +20,9 @@ class App extends React.Component {
     const { panel } = this.state;
     return (
       <div className="body">
-        <Header setPanel={this.setPanel} />
+        <Header setPanel={this.setPanel} panel={panel} />
         {panel === "Page" ? <Page /> : null}
+
       </div>
     );
   }

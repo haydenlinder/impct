@@ -150,7 +150,8 @@ html {
     fill: white;
 }
 
-.navlink.menu:hover, .navlink.cart:hover {
+.navlink.menu:hover, .navlink.cart:hover,
+.navlink.selected {
     background-color: rgb(0, 119, 255);
 }
 
