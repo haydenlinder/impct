@@ -57,7 +57,6 @@ class Cart extends React.Component {
     }
 
     setQty(item, qty) {
-        // debugger
         this.state[item].qty = qty;
         this.setState(this.state);
     }
