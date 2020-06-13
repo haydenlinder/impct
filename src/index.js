@@ -13,6 +13,9 @@ ReactDOM.render(
 );
 
 formatImagesToSquareContainer();
+setTimeout(() => {
+  formatPage();
+}, 200);
 window.addEventListener('resize', e => formatPage())
 
 serviceWorker.unregister();

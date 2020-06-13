@@ -486,10 +486,6 @@ html {
     padding: 2px;
 }
 
-.canvasjs-chart-canvas {
-    /* width:100%; */
-}
-
 .investment-feed-items {
     width: 100%;
     display: flex;
@@ -504,4 +500,34 @@ html {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+}
+
+.purchases-container {
+    width: 100%;
+}
+
+.purchases-container .cart-item:hover {
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+
+.purchases-container * {
+    margin: 5px;
+}
+
+.purchase-item {
+    margin-top: 10px;
+    position: relative;
+}
+
+.view-order {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: none;
+}
+
+.purchase-item:hover .view-order {
+    display: block;
 }

@@ -1,12 +1,10 @@
 export const formatPage = () => {
-    setInterval(() => {
-        const header = document.getElementById('header');
-        const page = document.getElementById('page');
-        if (header && page) {
-            const width = header.offsetWidth;
-            page.style['width'] = `${width}px`;
-        }
-    }, 200);
+    const header = document.getElementById('header');
+    const page = document.getElementById('page');
+    if (header && page) {
+        const width = header.offsetWidth;
+        page.style['width'] = `${width}px`;
+    }
 };
 
 export const formatImagesToSquareContainer = () => {

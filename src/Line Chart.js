@@ -29,7 +29,6 @@ class LineChart extends Component {
 			},
 			data: [
 				{
-					xValueFormatString: "Jun",
 					showInLegend: true,
 					name: "Cause 1",
 					legendText: "Cause 1",
