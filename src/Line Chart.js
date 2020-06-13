@@ -3,10 +3,10 @@ import CanvasJSReact from './canvasjs.react';
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
  
 class LineChart extends Component {
+
 	render() {
 		const options = {
 			legend: {
-				cursor: "pointer",
 				verticalAlign: "top",
 				fontSize: 18,
 				fontColor: "dimGrey",
@@ -29,6 +29,7 @@ class LineChart extends Component {
 			},
 			data: [
 				{
+					xValueFormatString: "Jun",
 					showInLegend: true,
 					name: "Cause 1",
 					legendText: "Cause 1",
@@ -61,6 +62,21 @@ class LineChart extends Component {
 						{ x: 7, y: 95 },
 						{ x: 8, y: 100 },
 						{ x: 9, y: 110 },
+					]
+				},
+				{
+					showInLegend: true,
+					name: "Cause 3",
+					legendText: "Cause 3",
+					type: "line",
+					toolTipContent: "Week {x}: ${y}",
+					dataPoints: [
+						{ x: 4, y: 5 },
+						{ x: 5, y: 15 },
+						{ x: 6, y: 30 },
+						{ x: 7, y: 35 },
+						{ x: 8, y: 50 },
+						{ x: 9, y: 70 },
 					]
 				},
 			]

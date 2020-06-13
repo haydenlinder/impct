@@ -7,7 +7,10 @@ const Investments = ({ investments }) => (
                 <LineChart />
         </div>
         <div className="investments-feed-container">
-            History
+            <div className="investments-feed-title">
+                History
+            </div>
+            <div className="investment-feed-items">
             {investments.map((investment,i) => 
                 <div key={i} className="investment-feed-item">
                     <div>Recipient: {investment.recipient}</div>
@@ -15,6 +18,7 @@ const Investments = ({ investments }) => (
                     <div>Date: {investment.date}</div>
                 </div>
             )}
+            </div>
         </div>
     </div>
 );

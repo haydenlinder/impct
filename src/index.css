@@ -254,6 +254,7 @@ html {
     align-items: center;
     max-width: 100%;
     overflow: scroll;
+    padding-bottom: 100px;
 }
 
 .user-info-message {
@@ -442,6 +443,7 @@ html {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-bottom: 100px;
 }
 
 .investments-graph-container {
@@ -453,18 +455,37 @@ html {
 .investments-graph-container button, .canvasjs-chart-toolbar {
     display: none;
 }
+
 .investments-feed-container {
     padding: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    color: dimgrey;
+}
+
+.investments-feed-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
 }
 
 .investments-feed-container * {
     padding: 2px;
 }
 
+.investment-feed-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .investment-feed-item {
+    width: 100%;
     margin-top: 5px;
     font-size: 12px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
