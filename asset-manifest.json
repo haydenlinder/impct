@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/impct/static/css/main.b9dc646b.chunk.css",
+    "main.css": "/impct/static/css/main.cbe86e28.chunk.css",
     "main.js": "/impct/static/js/main.26523df8.chunk.js",
     "main.js.map": "/impct/static/js/main.26523df8.chunk.js.map",
     "runtime-main.js": "/impct/static/js/runtime-main.7a3889b0.js",
@@ -8,9 +8,9 @@
     "static/js/2.8857f9a4.chunk.js": "/impct/static/js/2.8857f9a4.chunk.js",
     "static/js/2.8857f9a4.chunk.js.map": "/impct/static/js/2.8857f9a4.chunk.js.map",
     "index.html": "/impct/index.html",
-    "precache-manifest.528ea0b57031cd9dfce23aca8a6a4329.js": "/impct/precache-manifest.528ea0b57031cd9dfce23aca8a6a4329.js",
+    "precache-manifest.3e8060a84d99fdc30b5cb52ec682470f.js": "/impct/precache-manifest.3e8060a84d99fdc30b5cb52ec682470f.js",
     "service-worker.js": "/impct/service-worker.js",
-    "static/css/main.b9dc646b.chunk.css.map": "/impct/static/css/main.b9dc646b.chunk.css.map",
+    "static/css/main.cbe86e28.chunk.css.map": "/impct/static/css/main.cbe86e28.chunk.css.map",
     "static/js/2.8857f9a4.chunk.js.LICENSE.txt": "/impct/static/js/2.8857f9a4.chunk.js.LICENSE.txt",
     "static/media/coffee1.png": "/impct/static/media/coffee1.1ed7bc7d.png",
     "static/media/coffee2.png": "/impct/static/media/coffee2.c906672c.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.7a3889b0.js",
     "static/js/2.8857f9a4.chunk.js",
-    "static/css/main.b9dc646b.chunk.css",
+    "static/css/main.cbe86e28.chunk.css",
     "static/js/main.26523df8.chunk.js"
   ]
 }
