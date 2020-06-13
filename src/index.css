@@ -266,7 +266,7 @@ html {
     flex-direction: column;
     align-items: center;
     max-width: 100%;
-    overflow: scroll;
+    /* overflow: scroll; */
     padding-bottom: 100px;
 }
 
