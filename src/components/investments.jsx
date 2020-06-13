@@ -12,7 +12,7 @@ const Investments = ({ investments }) => (
             </div>
             <div className="investment-feed-items">
             {investments.map((investment,i) => 
-                <div key={i} className="investment-feed-item">
+                <div key={i} className={"investment-feed-item" + (!(i%2) ? '' : " even")}>
                     <div>Recipient: {investment.recipient}</div>
                     <div>Amount: ${investment.amount.toFixed(2)}</div>
                     <div>Date: {investment.date}</div>

@@ -84,6 +84,7 @@ class Cart extends React.Component {
                 </div>
                 <div>{keys.length} items</div>
                 <div>Subtotal: ${this.subTotal()}</div>
+                <div className="checkout">Check Out</div>
             </div>
         );
     }
