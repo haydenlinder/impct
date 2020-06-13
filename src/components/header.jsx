@@ -27,7 +27,7 @@ class Header extends React.Component {
                         </div>
                         }
                     </div>
-                    <div className="navlink home" onClick={e => setPanel('Page')}>
+                    <div className="navlink home" onClick={e => panel === 'Page' ? window.location.reload() : setPanel('Page')}>
                         impct
                     </div>
                     <div 
