@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/impct/static/css/main.362f054a.chunk.css",
-    "main.js": "/impct/static/js/main.23197917.chunk.js",
-    "main.js.map": "/impct/static/js/main.23197917.chunk.js.map",
+    "main.css": "/impct/static/css/main.8d2a69a7.chunk.css",
+    "main.js": "/impct/static/js/main.3aa9c9b8.chunk.js",
+    "main.js.map": "/impct/static/js/main.3aa9c9b8.chunk.js.map",
     "runtime-main.js": "/impct/static/js/runtime-main.7a3889b0.js",
     "runtime-main.js.map": "/impct/static/js/runtime-main.7a3889b0.js.map",
     "static/js/2.90a588ed.chunk.js": "/impct/static/js/2.90a588ed.chunk.js",
     "static/js/2.90a588ed.chunk.js.map": "/impct/static/js/2.90a588ed.chunk.js.map",
     "index.html": "/impct/index.html",
-    "precache-manifest.9fa40051400cedcf852ffdc64c5cf20f.js": "/impct/precache-manifest.9fa40051400cedcf852ffdc64c5cf20f.js",
+    "precache-manifest.5b604c37c9e3a04969d4af56fde4cca1.js": "/impct/precache-manifest.5b604c37c9e3a04969d4af56fde4cca1.js",
     "service-worker.js": "/impct/service-worker.js",
-    "static/css/main.362f054a.chunk.css.map": "/impct/static/css/main.362f054a.chunk.css.map",
+    "static/css/main.8d2a69a7.chunk.css.map": "/impct/static/css/main.8d2a69a7.chunk.css.map",
     "static/js/2.90a588ed.chunk.js.LICENSE.txt": "/impct/static/js/2.90a588ed.chunk.js.LICENSE.txt",
     "static/media/coffee1.png": "/impct/static/media/coffee1.1ed7bc7d.png",
     "static/media/coffee2.png": "/impct/static/media/coffee2.c906672c.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.7a3889b0.js",
     "static/js/2.90a588ed.chunk.js",
-    "static/css/main.362f054a.chunk.css",
-    "static/js/main.23197917.chunk.js"
+    "static/css/main.8d2a69a7.chunk.css",
+    "static/js/main.3aa9c9b8.chunk.js"
   ]
 }
