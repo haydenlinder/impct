@@ -1,6 +1,8 @@
 import React from 'react';
 import Avitar from './avitar';
 
+const pic = require('../images/woman1.jpg')
+
 class ProfilePhoto extends React.Component {
     constructor(props){
         super(props);
@@ -25,7 +27,7 @@ class ProfilePhoto extends React.Component {
         const { photoURL } = this.state;
         return(
             <div className="profile-photo photo-container">
-                <Avitar url={photoURL || "woman1.jpg"} alt="" />
+                <Avitar url={photoURL || pic} alt="" />
                 <label className="change-photo" htmlFor="profile-photo">Update
                         <input
                         className="profile-photo-file-input"
