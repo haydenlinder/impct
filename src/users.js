@@ -33,5 +33,30 @@ export const user1 = {
             amount: 300,
             date: '1-1-2020'
         },
+        {
+            recipient: 'Cause 1',
+            amount: 100,
+            date: '6-4-2019'
+        },
+        {
+            recipient: 'Cause 2',
+            amount: 50,
+            date: '5-24-2019'
+        },
+        {
+            recipient: 'Cause 3',
+            amount: 150,
+            date: '5-10-2019'
+        },
+        {
+            recipient: 'Cause 3',
+            amount: 420,
+            date: '4-20-2019'
+        },
+        {
+            recipient: 'Cause 2',
+            amount: 300,
+            date: '1-1-2019'
+        },
     ]
 }

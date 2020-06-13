@@ -17,7 +17,11 @@ class Profile extends React.Component {
         
         return(
             <div className="profile-container">
-                <ProfilePhoto />
+                <div className="profile-header">
+                    <div className="profile-header-info">$1,234 invested</div>
+                    <ProfilePhoto />
+                    <div className="profile-header-info">Ranked 12 of 31</div>
+                </div>
                 <div className="profile-tabs">
                     <div onClick={e => this.setState({tab: 'Investments'})}  className={`profile-tab ${tab === 'Investments' ? 'selected' : ''}`}>Investments</div>
                     <div onClick={e => this.setState({tab: 'Info'})}  className={`profile-tab ${tab === 'Info' ? 'selected' : ''}`}>Info</div>
