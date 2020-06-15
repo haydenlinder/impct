@@ -7,12 +7,12 @@ class UserInfo extends React.Component {
             edit: false,
             fname: 'Jane',
             lname: 'Du',
-            address1: 'Section 1, Bade Road',
-            address2: 'No. 104號, Section 1',
-            city: 'Zhongzheng District, Taipei City',
-            state: '',
-            country: 'Taiwan',
-            postalCode: '100'
+            address1: '123 Some Road',
+            address2: 'Unit 456',
+            city: 'San Francisco',
+            state: 'Califoria',
+            country: 'USA',
+            postalCode: '94121'
         };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this)
@@ -98,8 +98,8 @@ class UserInfo extends React.Component {
                 {address1 || address2 || city || state || country ? <div className="user-info-message">(Only you can see the following)</div> : null}
                 {address1 ? <div className="user-info-item">{address1}</div> : null}
                 {address2 ? <div className="user-info-item">{address2}</div> : null}
-                {city ? <div className="user-info-item">{city}</div> : null}
-                {state ? <div className="user-info-item">{state}</div> : null}
+                {city ? <div className="user-info-item">{city + (state ? ', ' + state : '')}</div>  : null}
+                {/* {state ? <div className="user-info-item">{state}</div> : null} */}
                 {country ? <div className="user-info-item">{country} {postalCode}</div> : null}
                 <div className="edit-user-info" onClick={e => this.setState({ edit: true })}>✎</div>
             </div>

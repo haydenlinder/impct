@@ -42,7 +42,7 @@ class Leaderboard extends Component {
                     name: "Nina Jones",
                     legendText: "Nina Jones",
                     type: "line",
-                    toolTipContent: 'Week {x}: ${y} <div style="width:30px;height:30px;overflow:hidden;display:flex;align-items:center;justify-content:center;border-radius:100%;" className="hover-avi"><img style="width:100%" className="not-resized" src={src} /></div>',
+                    toolTipContent: 'Week {x}: ${y} <div style="width:30px;height:30px;overflow:hidden;display:flex;align-items:center;justify-content:center;border-radius:100%;" className="hover-avi"><img class="not-resized" src={src} /></div>',
                     dataPoints: [
                         { x: 1, y: 25 , src: pic1},
                         { x: 2, y: 35 , src: pic1},
